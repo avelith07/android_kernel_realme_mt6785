@@ -3053,7 +3053,8 @@ CONFIG_MEDIA_SUBDRV_AUTOSELECT=y
 #
 # Graphics support
 #
-# CONFIG_DRM is not set
+CONFIG_DRM=y
+CONFIG_DRM_VGEM=y
 
 #
 # ACP (Audio CoProcessor) Configuration
