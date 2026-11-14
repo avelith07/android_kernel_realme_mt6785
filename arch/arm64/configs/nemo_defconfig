@@ -5433,6 +5433,11 @@ CONFIG_KSU=y
 CONFIG_KSU_MANUAL_HOOK=y
 
 #
+# NoMount
+#
+CONFIG_NOMOUNT=y
+
+#
 # Droidspaces
 #
 # IPC mechanisms
