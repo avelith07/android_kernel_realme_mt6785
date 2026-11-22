@@ -2023,7 +2023,7 @@ CONFIG_TUN=y
 #
 # Distributed Switch Architecture drivers
 #
-# CONFIG_ETHERNET is not set
+CONFIG_ETHERNET=y
 CONFIG_MDIO_DEVICE=y
 CONFIG_MDIO_BUS=y
 # CONFIG_MDIO_BCM_UNIMAC is not set
