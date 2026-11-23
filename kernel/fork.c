@@ -2663,6 +2663,7 @@ static bool clone3_args_valid(struct kernel_clone_args *kargs)
 
 SYSCALL_DEFINE2(clone3, struct clone_args __user *, uargs, size_t, size)
 {
+        return -ENOSYS;
 	int err;
 
 	struct kernel_clone_args kargs;
